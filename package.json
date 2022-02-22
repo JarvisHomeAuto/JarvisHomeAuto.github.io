@@ -1,0 +1,21 @@
+{
+  "name": "@jarvis-home-automation/jarvishomegithub",
+  "version": "1.0.0",
+  "description": "A simple demo/developer intro website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pad",
+    "jarvis",
+    "website",
+    "github"
+  ],
+  "author": "Parker Bidigare",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "prettier": "^2.5.1"
+  }
+}
