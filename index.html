@@ -67,7 +67,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       arObject.visible = false;
       scene.addNode(arObject);
 
-      let flower = new Gltf2Node({url: 'src/media/gltf/pad/pad-model-ar.glb'});
+      let flower = new Gltf2Node({url: 'src/media/gltf/pad/pad-model-ar.gltf'});
       console.log(flower);
       arObject.addNode(flower);
 
@@ -162,7 +162,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       const MAX_ANCHORED_OBJECTS = 30;
       let anchoredObjects = [];
       function addAnchoredObjectsToScene(anchor) {
-        let flower = new Gltf2Node({url: 'src/media/gltf/pad/pad-model-ar.glb'});
+        let flower = new Gltf2Node({url: 'src/media/gltf/pad/pad-model-ar.gltf'});
         scene.addNode(flower);
         anchoredObjects.push({
           anchoredObject: flower,
