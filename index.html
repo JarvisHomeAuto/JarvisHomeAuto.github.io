@@ -49,8 +49,9 @@ try{
       scene.addNode(arObject);
 
       let flower = new Gltf2Node({url: 'src/media/gltf/pad/pad/pad-model-ar.glb'});
-      console.log('init obj: ',flower);
+  
       flower.scale = [0.1,0.1,0.1];
+      console.log('init obj: ',flower);
       arObject.addNode(flower);
 
       let reticle = new Gltf2Node({url: 'src/media/gltf/reticle/reticle.gltf'});
